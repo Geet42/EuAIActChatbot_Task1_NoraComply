@@ -1,7 +1,6 @@
-// EU AI Act knowledge base — verbatim legal text from the official regulation.
-// Source: Regulation (EU) 2024/1689, published in the Official Journal of the EU on 12 July 2024.
-// Official text: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
-// Mirror with per-article permalinks: https://artificialintelligenceact.eu/
+// Verbatim text pulled from Regulation (EU) 2024/1689 — Official Journal, 12 July 2024.
+// Per-article mirror: https://artificialintelligenceact.eu/
+// Full text: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
 
 export type KnowledgeChunk = {
   id: string;

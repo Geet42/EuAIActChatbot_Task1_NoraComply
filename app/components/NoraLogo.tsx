@@ -1,4 +1,3 @@
-// Nora Comply wordmark + shield icon — custom SVG, no icon library
 export function NoraLogo({ size = 32 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +24,6 @@ export function NoraLogo({ size = 32 }: { size?: number }) {
   );
 }
 
-// EU official flag — 12 gold stars on blue circle, used as knowledge-base badge
 export function EUFlag({ size = 20 }: { size?: number }) {
   const stars = Array.from({ length: 12 }, (_, i) => {
     const angle = (i * 30 - 90) * (Math.PI / 180);

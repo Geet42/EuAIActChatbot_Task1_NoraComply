@@ -34,7 +34,6 @@ export default function ChatPage() {
   return (
     <div className="min-h-screen flex flex-col bg-grid" style={{ backgroundColor: "var(--navy-950)" }}>
 
-      {/* ── Header ──────────────────────────────────────────────────── */}
       <header
         className="flex-shrink-0 flex items-center justify-between px-6 py-3.5 border-b"
         style={{
@@ -99,7 +98,6 @@ export default function ChatPage() {
         </div>
       </header>
 
-      {/* ── Main ─────────────────────────────────────────────────────── */}
       <main
         className="flex-1 overflow-y-auto px-4 py-8"
         style={{ maxWidth: "780px", margin: "0 auto", width: "100%" }}
@@ -332,7 +330,6 @@ export default function ChatPage() {
         )}
       </main>
 
-      {/* ── Input bar ────────────────────────────────────────────────── */}
       <div
         className="flex-shrink-0"
         style={{

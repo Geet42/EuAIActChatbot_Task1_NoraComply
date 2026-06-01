@@ -1,11 +1,3 @@
-// Utility functions for the RAG pipeline.
-//
-// The retrieval step works like this:
-// 1. Embed the user's query using OpenAI's text-embedding-3-small model
-// 2. Embed each knowledge chunk (or use cached embeddings)
-// 3. Score each chunk by cosine similarity to the query
-// 4. Return the top-k chunks as context for the LLM
-
 export function cosineSimilarity(a: number[], b: number[]): number {
   const dot = a.reduce((sum, val, i) => sum + val * b[i], 0);
   const magnitudeA = Math.sqrt(a.reduce((sum, val) => sum + val * val, 0));
