@@ -254,7 +254,7 @@ The following questions were tested. Generic AI (ChatGPT-4o, no RAG) answers fro
 | | Generic AI | This System |
 |---|---|---|
 | **Answer** | "Yes, all deployers of high-risk AI must complete a FRIA" | "Article 27(1) mandates the FRIA for public bodies and private entities providing public services. A private-sector recruitment agency is NOT automatically in scope under Article 27(1). However, it is strongly advisable..." |
-| **Correct?** | ❌ Overstates the obligation | ✅ Verbatim text of Article 27(1) retrieved and applied |
+| **Correct?** | Overstates the obligation | Verbatim text of Article 27(1) retrieved and applied |
 | **Citation** | "Article 27" (no paragraph) | Article 27, Paragraph 1 with exact quoted text |
 | **Source link** | None | https://artificialintelligenceact.eu/article/27/ |
 
@@ -265,7 +265,7 @@ The following questions were tested. Generic AI (ChatGPT-4o, no RAG) answers fro
 | | Generic AI | This System |
 |---|---|---|
 | **Answer** | Often states "2025" or "when the Act applies" — vague | "2 August 2026. This is the date from Article 113 by which high-risk AI system obligations under Article 26 and Article 27 must be in place for Annex III systems." |
-| **Correct?** | ❌ Wrong or imprecise | ✅ Verbatim text of Article 113 retrieved |
+| **Correct?** |  Wrong or imprecise |  Verbatim text of Article 113 retrieved |
 | **Citation** | Generic | Article 113 — Implementation Timeline |
 | **Source link** | None | https://artificialintelligenceact.eu/article/113/ |
 
@@ -276,7 +276,7 @@ The following questions were tested. Generic AI (ChatGPT-4o, no RAG) answers fro
 | | Generic AI | This System |
 |---|---|---|
 | **Answer** | General statement: "a human must review AI decisions" | Retrieves Article 14(4) and Article 26(2). Lists the four specific legal attributes: competence, training, authority, support. Cites the automation bias requirement in Article 14(4)(b) by name |
-| **Correct?** | ❌ Legally insufficient | ✅ Four legally required attributes stated with paragraph citations |
+| **Correct?** |  Legally insufficient | Four legally required attributes stated with paragraph citations |
 | **Source link** | None | https://artificialintelligenceact.eu/article/14/ |
 
 ---
@@ -286,7 +286,7 @@ The following questions were tested. Generic AI (ChatGPT-4o, no RAG) answers fro
 | | Generic AI | This System |
 |---|---|---|
 | **Answer** | "It depends on how it is used" (unhelpfully vague) | Retrieves verbatim Annex III Point 4(a): *"AI systems intended to be used for the recruitment or selection of natural persons, in particular to analyse and filter job applications"* — and states clearly: this is HIGH-RISK. Then explains the Article 6(3) derogation: it would not be high-risk only if it performs a narrow procedural task or merely improves a previously completed human activity — and notes that profiling always overrides the derogation |
-| **Correct?** | ⚠️ Evasive | ✅ Correct, with verbatim Annex III text and the derogation caveat |
+| **Correct?** | Evasive | Correct, with verbatim Annex III text and the derogation caveat |
 | **Source link** | None | https://artificialintelligenceact.eu/annex/3/ |
 
 ---
